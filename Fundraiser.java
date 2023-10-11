@@ -10,9 +10,6 @@ public class Fundraiser {
     */
 
     public Fundraiser(double target) {
-        // Note to professor: I hope you don't mind my use of 'this.'
-        // I learned about 'this.'' in my high school java class back in the day
-        // and I find it easier than making additional variable names
         this.target = target;
         this.totalDonations = 0.0;
         this.numberOfDonations = 0;
